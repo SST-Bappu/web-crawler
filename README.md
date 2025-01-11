@@ -108,7 +108,11 @@ This crawler uses asynchronous HTTP requests (with `aiohttp`), parses the return
 
 
 ## How to Use
-
+1. **Create a Virtual Environment (recommended)
+    - set the project root as python path
+    - ```bash
+      python -m venv venv
+      export PYTHONPATH="."
 1. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
